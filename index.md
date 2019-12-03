@@ -1,37 +1,77 @@
-## Welcome to GitHub Pages
+# Project in R – Haberman's Survival with Machine Learning
 
-You can use the [editor on GitHub](https://github.com/OmarAbdelzaher/Machine-Learning-Blog/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Introduction to R-Language
+R is an open source programming language. It was developed by Roass Ihaka and Robert Gentleman in August 1993. And they decided the name for this language with their name’s first letter. Hence the name for this is R-Programming language, and the stable version was released in December 2018.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+It has been developed for statistical computing and graphics supported by R Foundation. The R language is widely used among statisticians and data miners for statistical software and data analysis Polls, data mining surveys.
 
-### Markdown
+## Haberman's Survival Dataset
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<img src="Breast Cancer.jpg" width="170" height="170" />
 
-```markdown
-Syntax highlighted code block
+Dataset has been collected from a standard benchmark
+UCI machine learning repository. A study at the hospital named University of Chicago’s Billings was conducted between the year 1958 and 1970 to identify the cancer patients who had undergone surgery for breast cancer and survived. Classifying patient’s survival after five years and
+patients death within five years is a challenging prognosis
+problem. The effectiveness of the classification achieved
+can be used by the clinicians for the treatment of patients in
+the hospitals.
 
-# Header 1
-## Header 2
-### Header 3
+## Procedures
+- Data Preprocessing
+- Models Building (3 Methods) :
+  - Logistic Regression
+  - KNN
+  - Decision Tree
+- Results Visualization
 
-- Bulleted
-- List
+## Coding Steps
 
-1. Numbered
-2. List
+#### Importing Data :
+<img src="Import.png" width="650" height="60" />
 
-**Bold** and _Italic_ and `Code` text
+### Assigning the data to training set and test set & Feature Scaling :
+<img src="Assign.png" width="650" height="170" />
 
-[Link](url) and ![Image](src)
-```
+### Including needed Libraries :
+<img src="Lib.png" width="650" height="100" />
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Logistic Regression Model :
+  - Accuracy , Sensitivity , Specificity **without** k-Fold Cross Validation
 
-### Jekyll Themes
+  <img src="Logistic.png" width="650" height="250" />
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/OmarAbdelzaher/Machine-Learning-Blog/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+  - Results :
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+  <img src="LogR.png" width="650" height="100" />
+
+
+  - Accuracy , Sensitivity , Specificity **Using** k-Fold Cross Validation
+
+### KNN Model :
+
+- Accuracy , Sensitivity , Specificity **without** k-Fold Cross Validation
+
+  <img src="KNN.png" width="650" height="250" />
+
+
+- Results :
+
+  <img src="KNN_R.png" width="650" height="100" />
+
+
+- Accuracy , Sensitivity , Specificity **Using** k-Fold Cross Validation
+
+### Decision Tree Model :
+
+- Accuracy , Sensitivity , Specificity **without** k-Fold Cross Validation
+
+  <img src="Tree.png" width="650" height="250" />
+
+
+- Results :
+
+  <img src="Tree_R.png" width="650" height="100" />
+
+
+- Accuracy , Sensitivity , Specificity **Using** k-Fold Cross Validation

@@ -26,7 +26,7 @@ the hospitals.
 
 ## Coding Steps
 
-#### Importing Data :
+### Importing Data :
 
 <img src="Import.png" width="650" height="60" />
 
@@ -93,4 +93,9 @@ the hospitals.
 
 - Accuracy Using **k-Fold Cross Validation** :
 
+  <img src="Tree_CV.png" width="650" height="250" />
+
+
 - Results :
+
+  <img src="Tree_CV_R.png" width="650" height="50" />

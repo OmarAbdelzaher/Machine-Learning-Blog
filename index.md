@@ -19,14 +19,15 @@ the hospitals.
 ## Procedures
 - Data Preprocessing
 - Models Building (3 Methods) :
-  - Logistic Regression
-  - KNN
-  - Decision Tree
+  1. Logistic Regression
+  2. KNN
+  3. Decision Tree
 - Results Visualization
 
 ## Coding Steps
 
 #### Importing Data :
+
 <img src="Import.png" width="650" height="60" />
 
 ### Assigning the data to training set and test set & Feature Scaling :
@@ -36,7 +37,7 @@ the hospitals.
 <img src="Lib.png" width="650" height="100" />
 
 ### Logistic Regression Model :
-  - Accuracy , Sensitivity , Specificity **without** k-Fold Cross Validation
+  - Accuracy , Sensitivity , Specificity :
 
   <img src="Logistic.png" width="650" height="250" />
 
@@ -46,11 +47,19 @@ the hospitals.
   <img src="LogR.png" width="650" height="100" />
 
 
-  - Accuracy , Sensitivity , Specificity **Using** k-Fold Cross Validation
+  - Accuracy Using **k-Fold Cross Validation** :
+
+  <img src="Log_CV.png" width="650" height="250" />
+
+
+  - Results :
+
+  <img src="Log_CV_R.png" width="650" height="50" />
+
 
 ### KNN Model :
 
-- Accuracy , Sensitivity , Specificity **without** k-Fold Cross Validation
+- Accuracy , Sensitivity , Specificity :
 
   <img src="KNN.png" width="650" height="250" />
 
@@ -60,11 +69,19 @@ the hospitals.
   <img src="KNN_R.png" width="650" height="100" />
 
 
-- Accuracy , Sensitivity , Specificity **Using** k-Fold Cross Validation
+- Accuracy Using **k-Fold Cross Validation** :
+
+  <img src="K_CV.png" width="650" height="300" />
+
+
+- Results :
+
+  <img src="K_CV_R.png" width="650" height="50" />
+
 
 ### Decision Tree Model :
 
-- Accuracy , Sensitivity , Specificity **without** k-Fold Cross Validation
+- Accuracy , Sensitivity , Specificity :
 
   <img src="Tree.png" width="650" height="250" />
 
@@ -74,4 +91,6 @@ the hospitals.
   <img src="Tree_R.png" width="650" height="100" />
 
 
-- Accuracy , Sensitivity , Specificity **Using** k-Fold Cross Validation
+- Accuracy Using **k-Fold Cross Validation** :
+
+- Results :

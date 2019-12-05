@@ -3,7 +3,7 @@
 ## Introduction to Machine Learning
 
 <p>
-<img src="ML.jpg" width="170" height="170" />
+<img src="ML.jpg" width="300" height="200" />
 <br>
 <em>Figure 1.Machine Learning Revolution</em>
 </p>
@@ -214,9 +214,9 @@ the patients, as the two other features are more effective (Age & Number of posi
 5. How to deal with R studio and using it in visualizing our data.
 6. Learning methods of classification for example:
 
-      * Decision Trees.
-      * K-nearest neighbors (KNN).
-      * Logistic regression.
+      * a) Decision Trees.
+      * b) K-nearest neighbors (KNN).
+      * c) Logistic regression.
 
 
 ##  Future Work

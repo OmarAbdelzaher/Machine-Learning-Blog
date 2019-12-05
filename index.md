@@ -4,9 +4,7 @@
 
 <p>
 <img src="ML.jpg" width="170" height="170" />
-
-
-
+<br>
 <em>Figure 1.Machine Learning Revolution</em>
 </p>
 
@@ -21,7 +19,7 @@ It has been developed for statistical computing and graphics supported by R Foun
 <p>
 <img src="Breast Cancer.jpg" width="170" height="170" />
 
-
+<br>
 
 <em>Figure 2. Spread of Breast cancer cells from original place to other
 parts of the body</em>
@@ -65,6 +63,8 @@ Our features were only three and all of them were extremely essential for predic
 Some Features may need normalization to get rid of a number of anomalies that can make analysis of the data more complicated. Indeed, it is usually through data normalization that the information within a database can be formatted in such a way that it can be visualized and analyzed.
 <p>
 <img align="center" src="Norm.png" width="200" height="90" />
+
+<br>
 
 <em>Figure 3. Normalization Rule</em>
 </p>
@@ -214,9 +214,9 @@ the patients, as the two other features are more effective (Age & Number of posi
 5. How to deal with R studio and using it in visualizing our data.
 6. Learning methods of classification for example:
 
-    - Decision Trees.
-    - K-nearest neighbors (KNN).
-    - Logistic regression.
+      * Decision Trees.
+      * K-nearest neighbors (KNN).
+      * Logistic regression.
 
 
 ##  Future Work

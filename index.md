@@ -36,15 +36,15 @@ can be used by the clinicians for the treatment of patients in
 the hospitals.
 
 ## Our Project Phases
- 1. Project proposal submission.
+  1. Project proposal submission.
 
- 2.Learning about data pre-processing.
+  2.Learning about data pre-processing.
 
- 3.Learning the methods.
+  3.Learning the methods.
 
- 4.Submit project milestone.
+  4.Submit project milestone.
 
- 5.Preparing the final version and publicity.
+  5.Preparing the final version and publicity.
 
 ## Procedures
 ### - Data Preprocessing
@@ -58,8 +58,8 @@ Our features were only three and all of them were extremely essential for predic
 3. Number of positive axillary nodes detected (numerical)
 
 - The Predicted Output Survival status (class attribute)
-  -  1 = the patient survived 5 years or longer
-  -  2 = the patient died within 5 year
+    -  1 = the patient survived 5 years or longer
+    -  2 = the patient died within 5 year
 
 #### 2) Feature Scaling
 Some Features may need normalization to get rid of a number of anomalies that can make analysis of the data more complicated. Indeed, it is usually through data normalization that the information within a database can be formatted in such a way that it can be visualized and analyzed.
@@ -175,7 +175,21 @@ Note: Our positive class is 1 so Specificity and Sensitivity values will be exch
 
 
 ### - Results Visualization
-We tried to visualize our features in 3D space but we decided to exclude one feature from the three which is the operation year of the patients, as the two other features are more effective (Age & Number of positive axillary nodes). This allowed us to easily visualize our features in 2D space. 
+We tried to visualize our features in 3D space.
+
+
+<img src="3D.jpeg" width="350" height="200" />
+
+
+According to PCA(Principal Component Analysis),
+
+
+<img src="PCA.jpeg" width="" height="" />
+
+
+
+We decided to exclude one feature from the three which is the operation year of
+the patients, as the two other features are more effective (Age & Number of positive axillary nodes). This allowed us to easily visualize our features in 2D space.
 
 - Logistic Regression Model
 
@@ -199,6 +213,7 @@ We tried to visualize our features in 3D space but we decided to exclude one fea
 4. Learning how to make a pre-processing for data before working on it.
 5. How to deal with R studio and using it in visualizing our data.
 6. Learning methods of classification for example:
+
     - Decision Trees.
     - K-nearest neighbors (KNN).
     - Logistic regression.

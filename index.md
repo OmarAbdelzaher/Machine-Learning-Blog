@@ -214,9 +214,11 @@ the patients, as the two other features are more effective (Age & Number of posi
 5. How to deal with R studio and using it in visualizing our data.
 6. Learning methods of classification for example:
 
-      * a) Decision Trees.
-      * b) K-nearest neighbors (KNN).
-      * c) Logistic regression.
+   a) Decision Tree.
+
+   b) K-nearest neighbors (KNN).
+
+   c) Logistic regression.
 
 
 ##  Future Work
